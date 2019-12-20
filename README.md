@@ -1,19 +1,19 @@
 # nightdiverru_infra
 nightdiverru Infra repository
 
-#HW3
-#Connection to someinternalhost by oneline command:
-#ssh -i ~/.ssh/appuser -A appuser@<bastion_ip> ssh -i ~/.ssh/appuser appuser@<someinternalhost_ip>
+HW3
+Connection to someinternalhost by oneline command:
+ssh -i ~/.ssh/appuser -A appuser@<bastion_ip> ssh -i ~/.ssh/appuser appuser@<someinternalhost_ip>
 
 bastion_IP = 35.224.216.188
 someinternalhost_IP = 10.128.0.3
 
-#HW4
+HW4
 
 testapp_IP = 35.247.1.114
 testapp_IP = 9292
 
-#howto add VM with initial script
+howto add VM with initial script
 
 gcloud compute instances create reddit-app\
   --boot-disk-size=10GB \
