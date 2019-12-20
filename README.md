@@ -9,8 +9,8 @@ bastion_IP = 35.224.216.188
 someinternalhost_IP = 10.128.0.3
 
 #HW4
-bastion_IP = 35.247.1.114
-someinternalhost_IP = 9292
+testapp_IP = 35.247.1.114
+testapp_IP = 9292
 
 #howto add VM with initial script
 
