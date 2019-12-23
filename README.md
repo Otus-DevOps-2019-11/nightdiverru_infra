@@ -1,7 +1,7 @@
 # nightdiverru_infra
 nightdiverru Infra repository
 
-testapp_IP = 35.247.1.114
+testapp_IP = 35.230.95.195
 testapp_port = 9292
 
 #how to deploy GCP VM with initial script
