@@ -1,8 +1,15 @@
 # nightdiverru_infra
 nightdiverru Infra repository
 
-#Connection to someinternalhost by oneline command:
-#ssh -i ~/.ssh/appuser -A appuser@<bastion_ip> ssh -i ~/.ssh/appuser appuser@<someinternalhost_ip>
+testapp_IP = 35.230.95.195
+testapp_port = 9292
 
-bastion_IP = 35.224.216.188
-someinternalhost_IP = 10.128.0.3
+#how to deploy GCP VM with initial script
+gcloud compute instances create reddit-app\
+  --boot-disk-size=10GB \
+  --image-family ubuntu-1604-lts \
+  --image-project=ubuntu-os-cloud \
+  --machine-type=g1-small \
+  --tags puma-server \
+  --restart-on-failure \
+  --metadata-from-file startup-script=setup.sh
