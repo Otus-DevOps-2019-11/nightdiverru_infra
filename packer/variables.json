@@ -1,0 +1,5 @@
+{
+    "project_id": "upbeat-winter-262410",
+    "source_image_family": "ubuntu-1604-lts",
+    "machine_type": "f1-micro"
+}
