@@ -1,5 +1,5 @@
 terraform {
-  # Версия terraform
+  # Версия terraform 0.12.19
   required_version = "0.12.19"
 }
 
