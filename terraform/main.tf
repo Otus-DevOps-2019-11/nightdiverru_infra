@@ -1,11 +1,11 @@
 terraform {
-  # Версия terraform 0.12.19
-  required_version = "0.12.19"
+  # Версия terraform 0.12.8
+  required_version = "0.12.8"
 }
 
 provider "google" {
   # Версия провайдера
-  version = "~>2.15"
+  version = "2.15.0"
 
   # ID проекта
   project = var.project
