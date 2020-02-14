@@ -13,3 +13,6 @@ gcloud compute instances create reddit-app\
   --tags puma-server \
   --restart-on-failure \
   --metadata-from-file startup-script=setup.sh
+
+#HW Ansible-01
+rm -rf made status changet = 1
